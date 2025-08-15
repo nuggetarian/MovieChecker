@@ -18,7 +18,7 @@ npm run dev
 
 Home screen with a few selected picks + a search bar
 
-<img src="images/img1.png>
+<img src="images/img1.png">
 
 Screen with user's checks
 
