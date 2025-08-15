@@ -1,0 +1,96 @@
+.home {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 3.2rem 3.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  align-items: center;
+}
+
+.main-title {
+  font-size: 6.2rem;
+  color: #fff;
+  font-weight: 500;
+}
+
+.main-slogan {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-top: -2rem;
+  margin-bottom: 3.2rem;
+}
+
+.search-form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.4rem;
+}
+
+.search-div {
+  width: 100%;
+  max-width: 60rem;
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  border-radius: 60px;
+  padding: 1rem 2rem;
+  margin: 0 auto;
+}
+
+.search-field {
+  background: transparent;
+  flex: 1;
+  border: 0;
+  outline: none;
+  padding: 1.2rem 15rem 1.2rem 0;
+  font-size: 1.6rem;
+  color: #ffffff;
+}
+
+.search-field::placeholder {
+  color: #fff;
+  opacity: 0.7;
+}
+
+.search-button {
+  all: unset;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+}
+
+.search-icon {
+  color: #fff;
+  font-size: 2rem;
+  margin-right: 1rem;
+  pointer-events: none;
+}
+
+.top-picks-div {
+  width: 100%;
+  display: flex;
+  align-items: start;
+}
+
+.top-picks {
+  color: #fff;
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+.movie-grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+  grid-template-columns: repeat(4, 1fr);
+
+  max-width: 140rem;
+  margin: 0 auto;
+  /* padding: 0 7.4rem; */
+}

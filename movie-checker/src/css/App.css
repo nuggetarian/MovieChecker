@@ -1,0 +1,25 @@
+/* .main-content {
+  flex: 1;
+  padding: 2rem;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+} */
+
+/* .container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+} */
+
+.website {
+  min-height: 100vh;
+  background: #6572a3;
+  background: linear-gradient(
+    181deg,
+    rgba(101, 114, 163, 1) 0%,
+    rgba(12, 30, 61, 1) 86%,
+    rgba(4, 25, 51, 1) 100%
+  );
+}

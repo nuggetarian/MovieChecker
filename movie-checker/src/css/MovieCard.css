@@ -1,0 +1,84 @@
+.movie-card {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.2);
+  border-radius: 11px;
+  overflow: hidden;
+  transition: all 0.2s;
+  position: relative;
+  background-color: #fff;
+  max-width: 24rem;
+}
+
+.movie-card .checked-btn {
+  display: none;
+}
+
+.movie-card:hover .checked-btn {
+  display: flex;
+}
+
+.movie-card:hover {
+  transform: translateY(-0.2rem);
+}
+
+.movie-poster {
+  width: 100%;
+}
+
+.checked-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  color: rgba(0, 0, 0, 0);
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  width: 3.6rem;
+  height: 3.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s;
+}
+
+.checked-btn:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+
+.checked-btn.active {
+  color: hsl(0, 0%, 100%);
+}
+
+.movie-info {
+  padding: 2.4rem 4.8rem 3.6rem 4.8rem;
+}
+
+.movie-title {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 500;
+  margin-bottom: 2.4rem;
+}
+
+.movie-attributes {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.movie-attribute {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.movie-attribute-icon {
+  flex-shrink: 0;
+}
+
+.rating-icon {
+  color: hsl(51, 82%, 33%);
+}
